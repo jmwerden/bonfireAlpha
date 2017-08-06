@@ -1,0 +1,405 @@
+
+
+
+
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (orientation : landscape)
+    and (-webkit-min-device-pixel-ratio : 3)
+{
+  html, body {
+    width: 100%;
+    background-color: #1e1c1c;
+  }
+  #hamburger.navbar-toggle{
+    left: 90%;
+  }
+  #logo{
+    left: 40%;
+  }
+  #bonfireletters{
+    width: 200px;
+  }
+  #navbar{
+    width: 50%;
+  }
+  #section01{
+      background-color: #1e1c1c;
+      width: 100%;
+  }
+  #section02 h7 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font : normal 300 18px/1 'News Gothic MT', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 999;
+  }
+  #section03 h1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font : normal 300 15px/1 'News Gothic MT', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 999;
+  }
+  .mobilehide{
+    display: none;
+  }
+
+  #section04 h5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    font-weight: bold;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font : normal 300 16px/1 'News Gothic MT', sans-serif;
+    white-space: nowrap;
+    z-index: 999;
+    text-align: center;
+    line-height: 19.2px;
+  }
+
+  #syllabye{
+    padding-left: 90px;
+    padding-bottom: 15px;
+
+  }
+   #next{
+
+    padding-bottom: 15px;
+  }
+#section05{
+ height: 100%;
+ background-color: #1e1c1c;
+}
+#section05 h5{
+ left: 50%;
+ text-align: center;
+}
+#ethologylogo{
+ top: 30%;
+ left: 10%;
+}
+.ethologynext{
+left: 25%;
+padding-bottom: 15px;
+}
+.ethologyseefull{
+ left: 25%;
+}
+#section06{
+ position: relative;
+height: 60%;
+}
+#lvrebrand{
+
+ width: 350px;
+ height: 350px;
+ margin-top: 200px;
+ margin-left: 10px;
+ z-index: 2;
+ white-space: nowrap;
+ z-index: 1;
+ opacity: .8;
+ left: 0%;
+}
+#inquire{
+ display: none;
+}
+#soundcloud{
+ display: none;
+}
+#spotify{
+ position: absolute;
+ top: 22%;
+ left: 2%;
+ width: 100px;
+ white-space: nowrap;
+ z-index: 999;
+ opacity: 70%;
+}
+#section07 h2{
+ position: absolute;
+ top: 55%;
+ left: 50%;
+ z-index: 2;
+ font-weight: bold;
+ -webkit-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ letter-spacing: 6px;
+ color: #34aff4;
+ font : normal 300 15px/1 'News Gothic MT', sans-serif;
+ white-space: nowrap;
+ z-index: 999;
+ text-align: left;
+ line-height: 19.2px;
+}
+#inquireform{
+ width: 300px;
+ height: 200px;
+ margin-left: 5%;
+}
+#message{
+ width: 250px;
+ left: 15%;
+ height: 100px;
+}
+#submitbtn{
+ top: 30%;
+ height: 80px;
+}
+#email{
+ left: 15%;
+ top: 30%;
+ height: 80px;
+}
+#emailline{
+ left: 10%;
+ width: 100px;
+}
+}
+Portrait
+@media only screen
+    and (min-device-width : 414px)
+    and (max-device-width : 736px)
+    and (device-width : 414px)
+    and (device-height : 736px)
+    and (orientation : portrait)
+    and (-webkit-min-device-pixel-ratio : 3)
+    and (-webkit-device-pixel-ratio : 3)
+{ }
+
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1100px) {
+  html, body {
+    width: 1650px;
+    height: 1450px;
+    background-color: #1e1c1c;
+  }
+  #section01{
+    width: 100%;
+    height: 100%;
+  }
+  #navbar{
+    margin-right: 900px;
+  }
+  #logo{
+  position: absolute;
+  top: 12%;
+  left: 36%;
+  width: 25%;
+  z-index: 999;
+  }
+  #bonfireletters{
+    padding-top: 600px;
+    width: 50%;
+  }
+  #section01 h5 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 40px/1 'News Gothic MT', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 999;
+}
+#section02{
+  width: 100%;
+  height: 100%;
+}
+#vision2{
+  width: 400px;
+  height: 400px;
+}
+#section02 h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #1e1c1c;
+    font: normal 300 100px/1 'News Gothic MT', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 999;
+    font-weight: bold;
+}
+#section02 h7 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 48px/1 'News Gothic MT', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    z-index: 999;
+}
+#section02 h6 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 48px/1 'News Gothic MT', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+    z-index: 999;
+}
+#section03{
+  height: 50%;
+}
+#section04 h5 {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    z-index: 2;
+    font-weight: bold;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 32px/1 'News Gothic MT', sans-serif;
+    white-space: nowrap;
+    z-index: 999;
+    text-align: left;
+    line-height: 30px;
+}
+
+#ethologylogo {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    z-index: 2;
+    width: 60%;
+    white-space: nowrap;
+    z-index: 999;
+}
+#section05 {
+    /* background-image: url(../images/ethology.png); */
+    background-color: #000000;
+    background-size: 100%;
+    background-color:100%;
+    position: relative;
+    top: -9.7px;
+}
+#section05 h5 {
+    position: absolute;
+    top: 62%;
+    left: 15%;
+    z-index: 2;
+    font-weight: bold;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 32px/1 'News Gothic MT', sans-serif;
+    white-space: nowrap;
+    z-index: 999;
+    text-align: left;
+    line-height: 30px;
+}
+#spotify{
+
+      top: -1200px;
+}
+#lvrebrand {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    height: 100%;
+    z-index: 2;
+    white-space: nowrap;
+    z-index: 1;
+    opacity: .8;
+}
+#inquire{
+  margin-bottom: 300px;
+      font: normal 400 50px/1 'Josefin Sans', sans-serif;
+}
+#section07{
+  height: 100%;
+}
+#section07 h1 {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font: normal 300 60px/1 'News Gothic MT', sans-serif;
+    white-space: nowrap;
+    z-index: 999;
+    text-align: left;
+    line-height: 19.2px;
+}
+#section07 h2 {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    z-index: 2;
+    font-weight: bold;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    letter-spacing: 12px;
+    color: #34aff4;
+    font: normal 300 30px/1 'News Gothic MT', sans-serif;
+    white-space: nowrap;
+    z-index: 999;
+    text-align: left;
+    line-height: 19.2px;
+}
+#inquireform{
+  top: 50%;
+}
+
+
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */

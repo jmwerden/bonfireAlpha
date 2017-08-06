@@ -1,0 +1,383 @@
+/*iPhone 6 landscape */
+/*@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation: landscape)
+ and (-webkit-min-device-pixel-ratio: 2)
+ {
+ /* Your CSS */
+ }
+
+/* iPhone 6 portrait */
+@media only screen
+ and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation: portrait)
+ and (-webkit-min-device-pixel-ratio: 2)
+ {
+   html, body {
+     width: 1525px;
+     background-color: #1e1c1c;
+   }
+   #section01{
+       background-color: #1e1c1c;
+       height: 2650px;
+   }
+   #logo{
+     position: absolute;
+     top: 25%;
+     left: 30%;
+       z-index: 999;
+     width: 40%;
+   }
+   #bonfireletters{
+     position: absolute;
+     padding-top: 275px;
+     width: 80%;
+     z-index: 999;
+     left: 10%;
+     top: 40%;
+   }
+   #section01 h5 {
+     position: absolute;
+     top: 65%;
+     left: 50%;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 80px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+   #section01 a {
+     padding-top: 250px;
+     left: 50%;
+
+   }
+   #section01 a span {
+     position: absolute;
+     top: 0;
+     width: 112px;
+     height: 112px;
+     border-left: 3px solid #fff;
+     border-bottom: 3px solid #fff;
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     box-sizing: border-box;
+   }
+
+
+
+   #section02 {
+     background-color: #34aff4;
+     height: 2700px;
+
+   }
+   #vision2 {
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     width: 40%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 50px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+   #section02 h1 {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #1e1c1c;
+     font : normal 300 144px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+     font-weight: bold;
+   }
+   #section02 h6 {
+     font : normal 300 48px/1 'News Gothic MT', sans-serif;
+   }
+   #section02 h7 {
+     position: absolute;
+     top: 65%;
+     left: 50%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 72px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+   #section02 a {
+     padding-top: 300px;
+     left: 46%;
+
+   }
+   #section02 a span {
+     position: absolute;
+     left: 50%;
+     width: 144px;
+     height: 144px;
+     margin-left: -23px;
+     border: 4px solid #fff;
+     border-radius: 100%;
+     box-sizing: border-box;
+   }
+
+
+
+   #section03 {
+     background-color: #1e1c1c;
+     height: 1350px;
+   }
+
+   #section03 h1 {
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 56px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     z-index: 999;
+   }
+
+   #section03 h2 {
+     position: absolute;
+     top: 45%;
+     left: 50%;
+     z-index: 2;
+     font-weight: bold;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 72px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+
+   #section03 a span {
+     position: absolute;
+     top: 60%;
+     left: 40%;
+     width: 46px;
+     height: 46px;
+     margin-left: -23px;
+     border: 2px solid #fff;
+     border-radius: 100%;
+     box-sizing: border-box;
+   }
+
+
+   #section04 {
+     height: 2700px;
+     position: relative;
+   }
+   #syllabyevid{
+     position: absolute;
+     opacity: .6;
+     width: 100%;
+   }
+
+   #section04 a span {
+     position: absolute;
+     top: 0;
+     left: 25%;
+     width: 24px;
+     height: 24px;
+     margin-left: -12px;
+     border-left: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     -webkit-animation: sdb05 1.5s infinite;
+     animation: sdb05 1.5s infinite;
+     box-sizing: border-box;
+   }
+   #syllabye{
+     position: absolute;
+     left: 50%;
+     top: 70%;
+     width: 40%;
+     z-index: 999;
+   }
+   #ethologylogo {
+     position: absolute;
+     top: 30%;
+     left: 25%;
+     width: 50%;
+     z-index: 2;
+     white-space: nowrap;
+     z-index: 999;
+   }
+   #section04 h5 {
+     position: absolute;
+     top: 40%;
+     left: 50%;
+     z-index: 2;
+     font-weight: bold;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 72px/1 'News Gothic MT', sans-serif;
+     white-space: nowrap;
+     z-index: 997;
+     text-align: center;
+     line-height: 72px;
+   }
+   
+
+
+
+
+
+ /* Your CSS */
+ }
+
+
+/* iPhone 6 Plus landscape */
+@media only screen
+ and (min-device-width: 414px)
+ and (max-device-width: 736px)
+ and (orientation: landscape)
+ and (-webkit-min-device-pixel-ratio: 3)
+ {
+ /* Your CSS */
+
+ }
+
+
+/* iPhone 6 Plus portrait */
+@media only screen
+ and (min-device-width: 414px)
+ and (max-device-width: 736px)
+ and (orientation: portrait)
+ and (-webkit-min-device-pixel-ratio: 3)
+ {
+ /* Your CSS */
+ }
+
+
+
+/* iPhone 6 and 6 Plus */
+@media only screen
+ and (max-device-width: 640px),
+ only screen and (max-device-width: 667px),
+ only screen and (max-width: 480px)
+ {
+ /* Your CSS */
+ }
+
+
+
+/*@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
+
+
+@media only screen
+ and (min-device-width : 375px)
+ and (max-device-width : 667px) {
+
+   html {
+     max-width: 100%;
+     height: 100%;
+     background-color: #1e1c1c;
+   }
+
+   #section01 {
+     background-color: #1e1c1c;
+     height: 100%;
+   }
+   #logo{
+     left: 50%;
+     height: 20%;
+     top: 25%
+   }
+   #bonfireletters{
+     width: 60%;
+     position: absolute;
+     top: 40%;
+     left: 40%;
+   }
+   #section01 h5 {
+     position: absolute;
+     top: 70%;
+     left: 68%;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 50px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+
+   #section01 a span {
+     position: absolute;
+     top: 0;
+     left: 50%;
+     width: 48px;
+     height: 48px;
+     margin-left: -12px;
+     border-left: 1px solid #fff;
+     border-bottom: 1px solid #fff;
+     -webkit-transform: rotate(-45deg);
+     transform: rotate(-45deg);
+     box-sizing: border-box;
+   }
+
+   #section02 {
+     background-color: #34aff4;
+   }
+   #vision2 {
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 50px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+   #section02 h1 {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #1e1c1c;
+     font : normal 300 50px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+     font-weight: bold;
+   }
+   #section02 h7 {
+     position: absolute;
+     top: 65%;
+     left: 50%;
+     z-index: 2;
+     -webkit-transform: translate(-50%, -50%);
+     transform: translate(-50%, -50%);
+     color: #fff;
+     font : normal 300 22px/1 'News Gothic MT', sans-serif;
+     text-align: center;
+     white-space: nowrap;
+     z-index: 999;
+   }
+/* STYLES GO HERE */}*/*/
